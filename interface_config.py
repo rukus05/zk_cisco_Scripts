@@ -1,3 +1,6 @@
+# This script determines which interfaces are trunks and which are access ports.  Based on the information,
+# apprpropriate configs are then applied to the interfaces.
+
 import netmiko
 import getpass
 from netmiko import ConnectHandler
